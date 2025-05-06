@@ -14,7 +14,8 @@ public class Fibonacci {
         this.nesimoElemento = 0;
     }
 
-    /**
+    /** Returns an array with size n that contains a fibonacci series
+     *  calculated in an iterative way
      * @param nesimoElemento n-ésimo elemento da sequência de Fibonacci
      * @return [] with the finonacci elements
      */
@@ -54,6 +55,10 @@ public class Fibonacci {
 
     }
 
+    /**
+     *
+     * @return an [] with the fibonacci elements with size nesimo
+     */
     public long[] fibonacciRecursivo() {
 
         if (sequenciaFibonacci == null)
