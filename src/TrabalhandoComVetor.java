@@ -1,5 +1,5 @@
 public class TrabalhandoComVetor {
-    private int[] idades; // declaração de um vetor de inteiros
+    private final int[] idades; // declaração de um vetor de inteiros
 
     public TrabalhandoComVetor(int tamanhoVetor) {
        // Inicializando o vetor

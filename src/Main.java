@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -8,13 +7,15 @@ public class Main {
     public static void main(String[] args) {
         int valorFinal = 10;
         int valorInicial = 1;
-        int size = 10;
+        int opt;
+
         Scanner entrada = new Scanner(System.in);
+
         IterativoVsRecursivoExemploSimples iterativoVsRecursivo;
         TrabalhandoComVetor trabalhandoComVetor;
         Fibonacci fibonacci;
 
-        int opt = 0;
+
         do {
             System.out.println("Escolha a opção desejada");
             System.out.println("1: \t Impressão iterativa");

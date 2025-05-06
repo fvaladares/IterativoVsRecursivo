@@ -15,7 +15,7 @@ public class Fibonacci {
     }
 
     /**
-     * @param nesimoElemento
+     * @param nesimoElemento n-ésimo elemento da sequência de Fibonacci
      * @return [] with the finonacci elements
      */
     public long[] fibonacciIterativo(Integer nesimoElemento) {
@@ -70,7 +70,7 @@ public class Fibonacci {
             }
         } else if (i == 1) {
             sequenciaFibonacci[i] = i;
-            fibonacciRecursivoInterno(i - 1);
+            fibonacciRecursivoInterno(0);
         } else  {
             sequenciaFibonacci[i] = i;
         }
